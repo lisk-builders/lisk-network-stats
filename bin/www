@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var debug = require('debug')('lisk-network');
+var app = require('../app');
