@@ -2,7 +2,7 @@
 
 _ = lodash;
 
-socket = new Primus({url: 'ws://liskstats.net'});
+socket = new Primus({url: 'ws://liskstats.net:3000'});
 
 toastr = window.toastr;
 toastr.options = {
