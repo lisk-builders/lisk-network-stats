@@ -1,48 +1,33 @@
 Lisk Network Stats
 ============
-This is a visual interface for tracking ethereum network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api).
+This is a visual interface for tracking lisk network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
 
 ![Screenshot]( "Screenshot")
 
-## Prerequisite
-* node
-* npm
-
 ## Installation
-Make sure you have node.js and npm installed.
-
-Clone the repository and install the dependencies
-
-```bash
-https://github.com/karek314/lisk-network-stats
-cd eth-netstats
+<pre>
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+export NVM_DIR="/root/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm install 6.2.0
+git clone https://github.com/karek314/lisk-network-stats
+cd lisk-network-stats
 npm install
-sudo npm install -g grunt-cli
-```
+npm install -g grunt-cli
+</pre>
 
-##Build the resources
-NetStats features two versions: the full version and the lite version. In order to build the static files you have to run grunt tasks which will generate dist or dist-lite directories containing the js and css files, fonts and images.
-
-
-To build the full version run
-```bash
+## Build
+<pre>
 grunt
-```
+</pre>
 
-To build the lite version run
-```bash
-grunt lite
-```
-
-If you want to build both versions run
-```bash
-grunt all
-```
 
 ##Run
+<pre>
+PORT=3010 WS_SECRET=test npm start
+</pre>
 
-```bash
-npm start
-```
+see the interface at http://localhost:3010
 
-see the interface at http://localhost:3000
+## Credits
+Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-netstats](https://github.com/cubedro/eth-netstats). This software has been created on the top of his work.
