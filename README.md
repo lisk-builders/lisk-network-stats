@@ -30,5 +30,12 @@ PORT=3010 npm start
 
 see the interface at http://localhost:3010
 
+## To do
+- [ ] Fix issue with block time chart
+- [ ] Fix issue with transactions chart
+- [ ] Fix average block time
+- [ ] Fix average propagation time
+- [ ] Fix up time
+
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-netstats](https://github.com/cubedro/eth-netstats). This software has been created on the top of his work.
