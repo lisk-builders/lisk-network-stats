@@ -2,7 +2,7 @@ Lisk Network Stats
 ============
 This is a visual interface for tracking lisk network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
 
-![Screenshot](https://raw.githubusercontent.com/karek314/lisk-network-stats/master/lisk-network-stats.png)
+![Screenshot](https://raw.githubusercontent.com/karek314/lisk-network-stats/master/lisk-network-stats-screenshot.png)
 
 
 ## Installation
