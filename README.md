@@ -31,10 +31,7 @@ PORT=3010 npm start
 see the interface at http://localhost:3010
 
 ## To do
-- [ ] Fix issue with block time chart
-- [ ] Fix issue with transactions chart
 - [ ] Fix average block time
-- [ ] Fix average propagation time
 - [ ] Fix uptime
 
 Most likely those issues has been made in [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
