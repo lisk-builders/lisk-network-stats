@@ -2,6 +2,8 @@ Lisk Network Stats
 ============
 This is a visual interface for tracking lisk network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
 
+![Screenshot](https://raw.githubusercontent.com/karek314/lisk-network-stats/master/lisk-network-stats.png)
+
 
 ## Installation
 <pre>
@@ -31,7 +33,7 @@ PORT=3010 npm start
 see the interface at http://localhost:3010
 
 ## To do
-- [ ] Fix average block time
+- [ ] Fix average block time, seems too high
 - [ ] Fix uptime
 
 Most likely those issues has been made in [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
