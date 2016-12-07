@@ -32,10 +32,5 @@ PORT=3010 npm start
 
 see the interface at http://localhost:3010
 
-## To do
-- [ ] Fix average block time, seems too high
-
-Most likely those issues has been made in [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
-
 ## Credits
 Thanks to [cuberdo](https://github.com/cubedro/) and his [eth-netstats](https://github.com/cubedro/eth-netstats). This software has been created on the top of his work.
