@@ -34,7 +34,6 @@ see the interface at http://localhost:3010
 
 ## To do
 - [ ] Fix average block time, seems too high
-- [ ] Fix uptime
 
 Most likely those issues has been made in [lisk-network-reporter](https://github.com/karek314/lisk-network-reporter).
 
