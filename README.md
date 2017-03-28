@@ -25,7 +25,7 @@ grunt
 ## Configure
 Change [secret key](https://github.com/karek314/lisk-network-stats/blob/ebe44d877eada5494fb0ad0cf594a33080a46599/app.js#L7)
 
-##Run
+## Run
 <pre>
 PORT=3010 npm start
 </pre>
