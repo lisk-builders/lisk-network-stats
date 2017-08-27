@@ -27,7 +27,10 @@
 
 })();
 
+/*
+Disabled this fix because it did break some highlighting features.
 window.onload = function () {fixScale();}
 function fixScale(){
         document.body.style.zoom = "80%";
 }
+*/
